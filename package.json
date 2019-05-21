@@ -18,6 +18,8 @@
   "homepage": "https://github.com/intelliware-coe-web/planning-poker#readme",
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "ejs": "^1.0.0",
+    "express": "^4.6.1"
   }
 }
