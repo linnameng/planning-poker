@@ -1,4 +1,5 @@
-#Planning Poker
+# Planning Poker
+[![Build Status](https://travis-ci.org/intelliware-coe-web/planning-poker.svg?branch=master)](https://travis-ci.org/intelliware-coe-web/planning-poker)
 
 ## Installation:
 - `npm install -g create-react-app`
