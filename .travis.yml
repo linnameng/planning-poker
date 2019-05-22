@@ -15,5 +15,7 @@ deploy:
   local_dir: build
   on:
     branch: master
+after_deploy:
+  - npm run lh -- --perf=90 --pwa=90 --a11y=90 --bp=90 https://intelliware-coe-web.github.io/planning-poker/
 notifications:
   slack: intelliware:mzyu8GqG4LOunucRTp6texaW
