@@ -16,3 +16,16 @@
 .Login-link {
     color: #61dafb;
 }
+
+.Login-form-container {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.Login-form {
+    width: 400px;
+}
+
+.uk-inline {
+    display: block;
+}
