@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Login.css';
 
 function Login() {
   return (
     <div className="login">
       <div className="login-form-container">
-        <div className="uk-align-center Login-form">
+        <div className="uk-align-center login-form">
         <span uk-icon="icon: users; ratio: 5" className="uk-margin"></span>
         <form>
           <fieldset className="uk-fieldset">
@@ -22,7 +23,11 @@ function Login() {
             </div>
           </fieldset>
           <div className="uk-inline">
-            <button className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Login</button>
+            <Link to="/room">
+              <button className="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">
+                Login
+              </button>
+            </Link>
           </div>
         </form>
         </div>

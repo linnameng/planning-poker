@@ -1,5 +1,6 @@
 import React from 'react';
 import './CardList.css';
+import Card from './Card';
 
 function CardList(props) {
     return (
@@ -8,11 +9,7 @@ function CardList(props) {
 
                 {props.listItems.map(function (listItem) {
                     return (
-                    <div class="uk-card uk-card-primary uk-card-body uk-margin">
-                        <div class="uk-card-badge uk-label">{listItem.priority}</div>
-                        <h3 class="uk-card-title">{listItem.title}</h3>
-                        <p>{listItem.description}</p>
-                    </div>
+                    <Card card={listItem} />
                     );
                 })}
                 
