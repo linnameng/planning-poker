@@ -3,8 +3,8 @@ import './Login.css';
 
 function Login() {
   return (
-    <div className="Login">
-      <div className="Login-form-container">
+    <div className="login">
+      <div className="login-form-container">
         <div className="uk-align-center Login-form">
         <span uk-icon="icon: users; ratio: 5" className="uk-margin"></span>
         <form>
