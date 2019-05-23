@@ -9,6 +9,7 @@ function Router() {
         <Route path="/login" component={Login} />
         <Route path="/" exact component={Login} />
         <Route path="/room/" component={Room} />
+        {/* <Route path="/story/:id" component={Story} /> */}
     </BrowserRouter>
   );
 }
